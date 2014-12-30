@@ -87,7 +87,7 @@ namespace Auth0Client.Android.Sample
 
 			var loginWithFacebook = this.FindViewById<Button> (Resource.Id.loginWithFacebook);
 			loginWithFacebook.Click += async (s, a) => {
-				// This uses a specific connection: google-oauth2
+				// This uses a specific connection: facebook
 				try 
 				{
 					var user = await this.client.LoginAsync (this, "facebook"); // current context and connection name
