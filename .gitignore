@@ -1,0 +1,7 @@
+bin
+obj
+MyFii.userprefs
+.DS_Store
+*.suo
+Thumbs.db
+*.csproj.user
